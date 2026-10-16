@@ -1,0 +1,13 @@
+{
+  "name": "evolve-backtest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A toy trading strategy on synthetic prices, scored by Sharpe ratio. A fixture for iomarkets.dev's Evolve Arena strategy-backtest preset.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test",
+    "bench": "node backtest.js in",
+    "holdout": "node backtest.js out"
+  }
+}
