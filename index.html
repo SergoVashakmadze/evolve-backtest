@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>evolve-backtest</title>
+<style>
+  :root { color-scheme: light dark; --fg: #1d2330; --bg: #f7f8fb; --mute: #5b6475; }
+  @media (prefers-color-scheme: dark) { :root { --fg: #e8ebf2; --bg: #10141c; --mute: #9aa3b5; } }
+  body { margin: 0; font: 16px/1.55 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 16px; }
+  code { font-size: 14px; }
+  p.note { color: var(--mute); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>evolve-backtest</h1>
+  <p>A toy trading strategy (<code>src/strategy.js</code>) on synthetic prices, scored by its Sharpe ratio: 2015–2021 for the search, 2022–2024 held out.</p>
+  <p>It is a fixture for the Evolve Arena's strategy-backtest preset on <a href="https://iomarkets.dev">iomarkets.dev</a>, and this page is what a live preview of it serves.</p>
+  <p class="note">Not investment advice; the prices are generated, not a real market.</p>
+</main>
+</body>
+</html>
